@@ -1,0 +1,84 @@
+.profissionais{
+
+    border-bottom: 0.25rem solid var(--vermelho);
+
+    padding-bottom: 2.625rem;
+
+}
+.chamada__imagem-container__picture{
+
+    display: flex;
+
+}
+.profissionais__titulo{
+
+    color: var(--vermelho);
+
+    font-size: 1.625rem;
+    text-align: center;
+    
+    margin: 2.625rem 0px;
+
+}
+.profissionais__card-funcionario{
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto;
+    align-items: center;
+
+    
+}
+.card-funcionario__foto-pessoa{
+    width: 100%;
+    grid-column: 1;
+}
+.card-funcionario__descricao{
+    font-size: 1rem;
+    padding-left: 0.625rem;
+    grid-column: 2;
+}
+.card-funcionario__nome{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--vermelho);
+    margin-top: 1rem;
+}
+@media screen and (min-width: 425px){
+    .profissionais__titulo{
+        margin-top: 2.625rem;
+    }
+    .card-funcionario__nome{
+        font-size: 1.2rem;
+    }
+    .card-funcionario__descricao{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .card-funcionario__nome{
+        font-size: 1rem;
+    }
+    .card-funcionario__descricao{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .profissionais{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .profissionais__titulo{
+        grid-row: 1;
+        grid-column: 1/ span 2;
+    }
+    .card-funcionario__nome{
+        font-size: 1rem;
+    }
+    .card-funcionario__descricao{
+        font-size: 1rem;
+    }
+}
