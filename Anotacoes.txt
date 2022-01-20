@@ -1,0 +1,42 @@
+Fonts:
+    Roboto Slab 
+    Poppins
+
+Cores:
+Azul: #0B3B59
+Cinza: #4D4D4D
+Vermelho: #450101
+Preto: #0D0D0D
+Branco: #EBEBEB
+
+
+Texto desktop:
+
+Chamada:
+	Cortes masculinos de barba e cabelo. vermelho
+	Sempre visamos qualidade e acecibilidade a todos! azul
+
+Proficionais:
+	Conheça nossos profissionais 
+
+
+	Funcionarios:
+
+Joao
+Fundador da Best Barber, mestre barbeiro expecialista em corte de cabelos masculinos, a 12 anos no mercado.
+
+
+Caio
+A mais de 6 anos formado como barbeiro, expecializado em cabelos crespos mesculinos.
+
+
+Vagner 
+A mais de 7 anos formado como barbeiro, expecializado em cortes de barba
+
+Jorge
+A mais de 5 anos formado como barbeiro, expecializado em cortes  artisticos.
+
+
+
+call to action:
+	button Corte agora

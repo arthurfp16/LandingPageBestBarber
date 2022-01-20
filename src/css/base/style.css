@@ -1,0 +1,22 @@
+@import url(./variaveis.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: var(--preto);
+}
+img{
+    width: 107px;
+}
+body{
+    background-color: var(--branco);
+}
+.container{
+    padding: 0 0.625rem;
+    margin-bottom: 1.625rem;
+}
+@media screen and (min-width: 768px){
+    :root{
+        font-size: 26px;
+    }
+}
